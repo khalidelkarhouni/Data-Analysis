@@ -29,7 +29,7 @@ Several metrics were computed from the cleaned data, including:
 - Frequency Analysis: Daily kill, death, and suicide rates
 - Spatial Analysis: Interaction heat maps overlaid onto grids, calculating the kill-to-death ratio (KDR) and economic impact (deaths resulting in penalties)
 - Temporal Trends: Identifying peak periods of activity, weapon usage patterns across time, and shifts in behavior
-- Player Classification: Segmentation of high-skill players using clustering algorithms based on performance data
+- Player Classification: Segmentation of high-skill players using clustering algorithms based on performance data (mainly kill-death ratio)
 
 **Visualizations**
 
@@ -37,11 +37,11 @@ Using R's ggplot2 library, I developed several visualizations:
 
 - Heat and Scatter Maps: Generated spatial maps of player interactions (kills, deaths, suicides, NPC deaths, etc.), highlighting high-activity zones and the financial impact of deaths per zone, this was done by splitting the map into 500x500 pixel grids and calculating KDSN (kills, deaths, suicides, NPC deaths) statistics and money lost.
 - Altitude Map: Constructed an altitude map and used it to analyze player interactions across different elevation levels 
-- Trend Analysis: Temporal patterns in activity, showing spikes in interactions and changes in behavior over time. For example, this was used to study the changes in the total death fee difference between the 2 factions over time (in real numbers and in percentage).
+- Trend Analysis: Temporal patterns in activity, showing spikes in interactions and changes in behavior over time. For example, this was used to study the changes in the total death fee difference between the 2 factions over time (in real numbers and percentages).
 
 **Outcomes and Insights**
 
-Through this project, I gained extensive experience in transforming unstructured data into a structured format suitable for advanced analysis. This project allowed me to hone my skills in:
+Through this project, I gained extensive experience transforming unstructured data into a structured format suitable for advanced analysis. This project allowed me to hone my skills in:
 
 - Cleaning and transforming large, unstructured datasets
 - Performing complex frequency and spatial analysis
