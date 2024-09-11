@@ -2,18 +2,20 @@
 
 **Project Overview**
 
-I conducted an extensive data analysis project using raw JSON data from an online environment, analyzing over 180 days' worth of interaction logs. This exercise focused on turning complex, unstructured data into meaningful insights through data cleaning, transformation, and visualization techniques.
+I conducted an extensive data analysis project using raw JSON data from an online game environment, analyzing over 180 days' worth of interaction logs of 2 factions totaling around 230 players. This exercise focused on turning complex, unstructured data into meaningful insights through data cleaning, transformation, and visualization techniques.
 
 **Key Data**
 
-The data consisted of player interaction logs with fields including player identifiers, timestamps, locations (x, y, z coordinates), event types, and metadata about actions taken (such as the tools or methods used). This unstructured data required significant cleanup and filtering to extract useful insights.
+The data consisted of player kill-death logs with fields including player names and IDs, timestamp, location (x, y, z coordinates), weapon used, interior and world ID, and players' factions IDs. This unstructured data required significant cleanup and filtering to extract useful insights.
 
 **Data Transformation Process**
 
-The dataset was processed using R and Excel, where each event was categorized into variables such as:
+The dataset was processed using R and Excel, where each death was filtered to extract elements such as:
 
-- Kill, death, or suicide counts
-- Weapon usage frequency
+- Kill, death, suicides, and deaths while in NPC state (NPC state leaves a static player model for 5 minutes if the player quits the game).
+- Death fees: Upon death, players pay a death fee 
+- Weapon used (pistols, assault rifles, shotguns, melee, sniper, etc.)
+- Player tier (tier 0, 1, 2, or 3): The tier's significance resides in determining whether players have access to a special weapon (Sniper) which has a big effect on gameplay, and therefore on the statistics. There are only 2 tier 0s and 4 tier 1s.
 - Player location-based interactions (including proximity to key locations)
 - Temporal analysis (active hours and days)
 
