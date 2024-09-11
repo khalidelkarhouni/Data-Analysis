@@ -1,6 +1,6 @@
 # Data Analysis
 
-**Project Overview**
+    **Project Overview**
 
 I conducted an extensive data analysis project using raw JSON data from an online environment, analyzing over 180 days' worth of interaction logs. This exercise focused on turning complex, unstructured data into meaningful insights through data cleaning, transformation, and visualization techniques.
 
