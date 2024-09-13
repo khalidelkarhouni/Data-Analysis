@@ -2,7 +2,7 @@
 
 **Project Overview**
 
-I conducted an extensive data analysis project using raw JSON data from an online game environment, analyzing over 180 days' worth of interaction logs of 2 factions totaling around 230 players. This exercise focused on turning complex, unstructured data into meaningful insights through data cleaning, transformation, and visualization techniques.
+I conducted an extensive data analysis project using raw JSON data from an online game environment, analyzing over 180 days' worth of interaction logs of 2 factions totaling around 230 players. This exercise focused on turning complex, unstructured data into meaningful insights through data cleaning, transformation, and visualization techniques. The analysis was done using R and Microsoft Excel.
 
 **Key Data**
 
