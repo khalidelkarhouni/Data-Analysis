@@ -36,7 +36,7 @@ Several metrics were computed from the cleaned data, including:
 Using R's ggplot2 library, I developed several visualizations:
 
 - Heat and Scatter Maps: Generated spatial maps of player interactions (kills, deaths, suicides, NPC deaths, etc.), highlighting high-activity zones and the financial impact of deaths per zone, this was done by splitting the map into 500x500 pixel grids and calculating KDSN (kills, deaths, suicides, NPC deaths) statistics and money lost.
-- Altitude Map: Constructed an altitude map and used it to analyze player interactions across different elevation levels 
+- Elevation Map: Constructed an elevation map and used it to analyze player interactions across different elevation levels 
 - Trend Analysis: Temporal patterns in activity, showing spikes in interactions and changes in behavior over time. For example, this was used to study the changes in the total death fee difference between the 2 factions over time (in real numbers and percentages).
 
 **Outcomes and Insights**
